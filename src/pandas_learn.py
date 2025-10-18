@@ -7,6 +7,8 @@ def use_pandas(data):
     print(type(data)) # <class 'pandas.core.frame.DataFrame'>
     # Print the last  few rows
     print(data.tail(10)) # initial last 5 rows
+    # access a column
+    print(data['PassengerId'])
 
 
 def main():
